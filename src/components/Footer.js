@@ -91,7 +91,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Legal Footer */}
+        {/* Legal Footer*/}
         <div className="mt-24 pt-12 border-t border-neutral-900 flex flex-col md:flex-row justify-between items-center gap-8">
           <p className="text-[10px] uppercase tracking-widest text-neutral-600">
             © {new Date().getFullYear()} 11THHAVENHOMES. All rights reserved.
