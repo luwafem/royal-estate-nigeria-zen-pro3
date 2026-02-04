@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FiArrowRight, FiArrowUpRight } from 'react-icons/fi';
 
 const HeroSection = () => {
@@ -47,12 +48,13 @@ const HeroSection = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-6">
+                <Link
+                to="/properties"
+                >
                 <button className="group flex items-center justify-center gap-4 bg-white text-black px-10 py-6 rounded-full text-[11px] font-bold uppercase tracking-[0.2em] hover:bg-neutral-200 transition-all">
-                  Private Access <FiArrowRight className="group-hover:translate-x-1 transition-transform" />
+                  VIew properties <FiArrowRight className="group-hover:translate-x-1 transition-transform" />
                 </button>
-                <button className="group flex items-center justify-center gap-4 bg-white/5 backdrop-blur-md border border-white/20 px-10 py-6 rounded-full text-[11px] font-bold uppercase tracking-[0.2em] hover:bg-white/10 transition-all">
-                  The Ledger <FiArrowUpRight className="text-white/40" />
-                </button>
+                </Link>
               </div>
             </div>
 

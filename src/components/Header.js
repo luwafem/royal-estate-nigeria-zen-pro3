@@ -36,7 +36,7 @@ const Header = () => {
           
           {/* Logo - Minimal Serif */}
           <Link to="/" className="z-[120]">
-            <h1 className="text-xl font-serif italic tracking-tighter text-white">11TH HAVEN HOMES.</h1>
+            <h1 className="text-xl font-sans not-italic tracking-tighter text-white">11TH HAVEN HOMES.</h1>
           </Link>
 
           {/* Desktop Nav - Ultrasmall tracking */}
